@@ -1,6 +1,8 @@
 import random
 import math
 from astar import AStar
+
+
 class People:
     def __init__(self, _id, _loc_x, _loc_y,):
         self.id = _id  # 行人编号
@@ -10,7 +12,6 @@ class People:
         self.loc = (_loc_x, _loc_y)  # 当前位置
         self.v = (0, 0)  # 当前速度
         self.a = (0, 0)  # 当前加速度
-
 
 
 class PeopleList:

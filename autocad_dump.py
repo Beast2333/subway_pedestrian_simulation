@@ -15,18 +15,6 @@ def dxf_dumper(dxf1):
     return row
 
 
-def set_stlye(name,height,bold=False):
-    # 初始化样式
-    style = xlwt.XFStyle()
-    font = xlwt.Font()
-    font.bold = bold
-    font.colour_index = 4
-    font.height = height
-    font.name = name
-    style.font = font
-    return style
-
-
 def write_excel(row1):
     f = xlwt.Workbook()
     # 创建sheet1

@@ -42,7 +42,7 @@ class AStar:
             now_loc = open_list[0]
             for i in range(1, len(open_list)):  # （1）获取f值最小的点，遍历openlist的所有点
                 if node_matrix[open_list[i][0]][open_list[i][1]].f < node_matrix[now_loc[0]][now_loc[1]].f:
-                    now_loc = open_list[i]#如果openlist里的点的f值小于当前位置点的f值，则将当前位置点换为openlist内的i点
+                    now_loc = open_list[i]  # 如果openlist里的点的f值小于当前位置点的f值，则将当前位置点换为openlist内的i点
             #   （2）切换到关闭列表
             open_list.remove(now_loc)#openlist中删除起始点即i点
             close_list.append(now_loc)#closelist中加入起始点即i点
