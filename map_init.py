@@ -5,7 +5,7 @@ import pandas as pd
 class ACO:
     def __init__(self):
         self.path_data = np.zeros([9, 9], dtype='int')
-        self.path = './path.csv'
+        self.path = './map.csv'
 
     def dump_csv(self):
         np.savetxt(self.path, self.path_data, delimiter=',')
