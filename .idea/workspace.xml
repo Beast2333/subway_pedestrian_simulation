@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0222a2e-31d0-4459-b352-ec18ff43a284" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/ACO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ant.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocad_dump.py" beforeDir="false" afterPath="$PROJECT_DIR$/autocad_dump.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/data.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.csv" beforeDir="false" afterPath="$PROJECT_DIR$/map.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/map_init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +118,7 @@
       <recent name="$PROJECT_DIR$/std" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ant">
+  <component name="RunManager" selected="Python.autocad_dump">
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,6 +150,9 @@
       <module name="social_force_model" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -230,22 +231,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="autocad_dump" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="social_force_model" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autocad_dump.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -299,19 +297,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.aoc_tst" />
       <item itemvalue="Python.map_init" />
       <item itemvalue="Python.ACO" />
       <item itemvalue="Python.ant" />
+      <item itemvalue="Python.autocad_dump" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.autocad_dump" />
         <item itemvalue="Python.ant" />
         <item itemvalue="Python.ACO" />
         <item itemvalue="Python.map_init" />
         <item itemvalue="Python.aoc_tst" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +342,10 @@
       <workItem from="1615018805724" duration="7853000" />
       <workItem from="1615286817039" duration="2145000" />
       <workItem from="1615691187705" duration="263000" />
-      <workItem from="1615706964244" duration="19648000" />
+      <workItem from="1615706964244" duration="19799000" />
+      <workItem from="1615819507104" duration="40000" />
+      <workItem from="1615988371478" duration="314000" />
+      <workItem from="1616636973418" duration="2057000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1610782766435</created>

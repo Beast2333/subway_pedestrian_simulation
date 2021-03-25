@@ -2,9 +2,10 @@ import numpy as np
 import pandas as pd
 
 
-class MapInit:
+class MapInit(object):
     def __init__(self):
         self.path_data = np.zeros([2, 7, 7], dtype='int')
+        self.data_path = './data.xls'
         self.path = './data.npy'
 
     def dump_csv(self, path_data):
@@ -14,6 +15,9 @@ class MapInit:
     def load_csv(self):
         path_data = np.load(self.path)
         return path_data
+
+    def data_dump(self):
+
 
 
 if __name__ == "__main__":
